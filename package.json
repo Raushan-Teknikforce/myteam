@@ -1,0 +1,25 @@
+{
+  "name": "myteam",
+  "version": "1.0.0",
+  "description": "trace my team work report automatically ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec electron ."
+  },
+  "author": "raushan-ranjan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "promise-mysql": "^5.2.0",
+    "screenshot-desktop": "^1.15.0"
+  }
+}
