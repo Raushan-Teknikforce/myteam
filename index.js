@@ -17,7 +17,6 @@ const createWindow = () => {
 const viewEmployeeLog = async (employeeId) => {
   try {
     const con = await getconnection();
-    console.log("employeeId", employeeId);
     const result = await con.query("SELECT * FROM images WHERE user_id = ?", [
       employeeId,
     ]);
