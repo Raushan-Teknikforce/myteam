@@ -1,0 +1,77 @@
+
+  h1, h3 {
+    text-align: center;
+  }
+  
+  #hours, #minutes, #seconds {
+    font-weight: bold;
+  }
+  .UserData{
+    display: flex;
+    flex-direction: row;
+  }
+  .TimerData{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(241, 241, 241);
+  }
+  .time{
+    height: 7vh;
+    width: 10vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    margin-left: 4rem;
+    border-color: 5px #3498db;
+  }
+  .time aside{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .time aside span{
+    font-size: larger;
+  }
+ 
+
+   button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070bb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .vdo{
+    width: 80%;
+  background-color: rgb(220, 222, 220);
+
+  }
+.vdo video{
+  background-color: white;
+  height: 50vh;
+  width: 30vw;
+  position: relative;
+  left: 2%;
+  top: 5%;
+  border-radius: 5px;
+}
+.vdo button{
+ margin-top: 3rem;
+ position: relative ;
+ right: 30%;
+}
+#logout{
+  position: relative;
+  top: 55%;
+}
+
+
+  

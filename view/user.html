@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/User.css">
+    <script src="../Renderer/UserRenderer.js"></script>
+</head>
+<body>
+    <h1>ON DUTY</h1>
+   
+    <div class="UserData">
+    <div class="TimerData" >
+    <h3>Your working time </h3> 
+    <strong class="time">
+        <aside>
+         <span id="hours">:</span>
+         <span id="minutes">:</span>
+         <span id="seconds">:</span>
+        </aside>
+        </strong>
+    <button id="pause">Pause</button>
+    <button id="restart">Start</button>
+    <button id="logout">Log Out</button>
+</div>
+<div class="vdo">
+    <video autoplay id="captureVideo" > </video>
+    <button id="turnoffCamera"> video</button>
+    <img id="getimg"/>
+</div>
+<div id="toDo">
+<label>Add Todays Work</label>
+<input type="text" id="addTodo">
+</div>
+</div>
+</body>
+</html>
+
+
+
